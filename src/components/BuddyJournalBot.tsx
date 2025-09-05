@@ -19,8 +19,8 @@ interface JournalEntry {
 }
 
 // Google Gemini API configuration (replace with your actual API key)
-const GEMINI_API_KEY = import.meta.env.VITE_GEMINI_API_KEY || 'your-api-AIzaSyA4xNBUsGVy7vR0Ff5Y6VwgyLlstFBxc_A-here';
-const GEMINI_API_URL = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent';
+const GEMINI_API_KEY = import.meta.env.VITE_GEMINI_API_KEY || ' ';
+const GEMINI_API_URL = ' ';
 
 // Journaling prompts for inspiration
 const JOURNALING_PROMPTS = [
@@ -431,3 +431,4 @@ const BuddyJournalBot: React.FC = () => {
 };
 
 export default BuddyJournalBot;
+
